@@ -8,6 +8,7 @@
     <title>РУМТИБЕТ</title>
 </head>
 <body>
+    <section class="start">
     <header class="header">
         <section class="header__section__main">
             <img class="header__logo" src="/img/logo.png" alt="">
@@ -23,10 +24,40 @@
             </nav>
             <button class="header__btn">Консультация</button>
         </section>
-        <!-- <section class="header__section__footer">
-            <h1>Насладись прогулкой в горах <br> с командой единомышленников</h1>
-            
-        </section> -->
     </header>
+        
+        <section class="header__section__footer">
+            <h1 class="main__h1">Насладись прогулкой в горах <br> с командой единомышленников</h1>
+            <section class="start__forms">
+                <article class="form-1">
+                    <label for="tour"></label>
+                    <select name="tour" id="tour">
+                        <option value="">Локация для тура</option>
+                        <option value="">Озеро возле гор</option>
+                        <option value="">Ночь в горах</option>
+                        <option value="">Йога в горах</option>
+                    </select> 
+                </article>
+            </section>
+        </section>
+
+    </section>
+
+
+
+    <div class="custom-select">
+    <div class="select-trigger">
+        <span class="select-value">Выберите город</span>
+        <span class="select-arrow">▾</span>
+    </div>
+    <ul class="select-options">
+        <li data-value="moscow">📍 Москва</li>
+        <li data-value="spb">📍 Санкт-Петербург</li>
+        <li data-value="kazan">📍 Казань</li>
+        <li data-value="sochi">📍 Сочи</li>
+    </ul>
+</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
