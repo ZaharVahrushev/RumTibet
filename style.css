@@ -179,12 +179,20 @@ body {
     transform: scale(1.2);
 }
 
-
+/* container  */
 .container {
     display: flex;
     justify-content: center;
 
 }
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    background: #f3f5f4;
+}
+
+/* container  */
 
 .block-gid {
     display: flex;
@@ -249,3 +257,119 @@ body {
     opacity: 0.5;
     transform: scale(0.95);
 }
+
+.block-offer {
+display: flex;
+/* justify-content: space-between; */
+gap: 0 90px;
+padding: 80px 0 100px 0;
+
+
+}
+
+.block-offer__inf {
+/* width: 580px; */
+/* height: 591px; */
+}
+
+.block-offer__inf__h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 83%;
+    color: #f2be22;
+}
+
+.block-offer__inf__h3 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 120%;
+    color: #18121e;
+}
+
+.block-offer__inf__p {
+    width: 580px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #18121e;
+}
+
+.block-offer__inf__cards {
+
+}
+
+.block-offer__inf__card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+
+}
+
+.block-offer__inf__card-img {
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    background: #e5eeeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.block-offer__inf__img {
+    width: 36px;
+    height: 36px;
+}
+
+.block-offer__inf__card-inf {
+    padding-left: 16px;
+}
+
+.block-offer__inf__card-inf__h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: 0.01em;
+    color: #18121e;
+}
+
+.block-offer__inf__card-inf__p {
+    width: 514px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #000;
+}
+
+.block-offer__btn {
+    border: none;
+    border-radius: 4px;
+    padding: 16px 36px;
+    width: 236px;
+    height: 52px;
+    background: #1a3e3e;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #fdfdfd;
+
+    margin-top: 40px;
+}
+
+.block-offer-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 510px;
+    height: 510px;
+    padding-top: 40px;
+
+}
+
+.block-offer-img img {
+    width: 250px;
+    height: 250px;
+}
+
