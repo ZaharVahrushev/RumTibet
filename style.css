@@ -293,17 +293,17 @@ padding: 80px 0 100px 0;
     font-size: 18px;
     line-height: 150%;
     color: #18121e;
+    margin-bottom: 40px; 
 }
 
 .block-offer__inf__cards {
-
 }
 
 .block-offer__inf__card {
     display: flex;
     justify-content: start;
     align-items: center;
-    
+    padding-bottom: 40px;
 
 }
 
@@ -333,6 +333,8 @@ padding: 80px 0 100px 0;
     line-height: 111%;
     letter-spacing: 0.01em;
     color: #18121e;
+    padding: 0;
+    margin: 0;
 }
 
 .block-offer__inf__card-inf__p {
@@ -341,6 +343,8 @@ padding: 80px 0 100px 0;
     font-size: 14px;
     line-height: 143%;
     color: #000;
+    padding: 0;
+    margin: 0;
 }
 
 .block-offer__btn {
@@ -355,8 +359,6 @@ padding: 80px 0 100px 0;
     line-height: 125%;
     letter-spacing: 0.01em;
     color: #fdfdfd;
-
-    margin-top: 40px;
 }
 
 .block-offer-img {
@@ -364,7 +366,7 @@ padding: 80px 0 100px 0;
     flex-wrap: wrap;
     width: 510px;
     height: 510px;
-    padding-top: 40px;
+    padding-top: 85px;
 
 }
 
